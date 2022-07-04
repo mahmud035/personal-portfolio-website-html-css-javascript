@@ -16,6 +16,25 @@
   --big-font: 5rem;
   --h2-font: 3rem;
   --p-font: 1.1rem;
+  /*=======Scroll bar colors=======*/
+  --scroll-bar-color: #c5cadf;
+  --scroll-thumb-color: #70768a;
+  --scroll-thumb-hover-color: #454f6b;
+}
+
+/*=======Scroll bar=======*/
+::-webkit-scrollbar {
+  width: 10px;
+  background: var(--scroll-bar-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scroll-thumb-color);
+  border-radius: 2em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scroll-thumb-hover-color);
 }
 
 html {
