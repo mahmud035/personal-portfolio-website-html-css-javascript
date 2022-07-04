@@ -188,3 +188,9 @@ span {
 .btn:hover {
   transform: scale(1.1);
 }
+
+.home-img img {
+  max-width: 100%;
+  width: 540px;
+  height: auto;
+}
