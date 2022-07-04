@@ -442,3 +442,42 @@ header.sticky {
   transform: perspective(1000px) rotateX(4.8deg) rotateY(10.23deg)
     scale3d(1.05, 1.05, 1.05);
 }
+
+/* Work */
+.complete-task-box {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.task {
+  background: #fff;
+  box-shadow: 18px 0px 87px 0px rgb(10 15 70 / 7%);
+  border-radius: 12px;
+  padding: 50px;
+}
+
+.task.one {
+  background: #baebcd;
+}
+
+.task.two {
+  background: #d9d1fa;
+}
+
+.task.three {
+  background: #faedce;
+}
+
+.task h3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.task p {
+  font-size: var(--p-font);
+}
