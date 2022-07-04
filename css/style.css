@@ -39,7 +39,7 @@ header {
   justify-content: space-between;
   align-items: center;
   background: transparent;
-  padding: 30px 18px;
+  padding: 30px 18%;
   transition: 0.3s ease;
 }
 
@@ -194,3 +194,20 @@ span {
   width: 540px;
   height: auto;
 }
+
+/* INFO: Sticky Navigation */
+header.sticky {
+  background: var(--bg-color);
+  padding: 13px 18%;
+  box-shadow: 0px 0px 10px rgba(0 0 0 / 10%);
+}
+
+/* Sub Service */
+/* .items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, auto));
+  gap: 2rem;
+  align-items: center;
+  text-align: center;
+}
+ */
